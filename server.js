@@ -2,18 +2,16 @@
 
 const express = require('express'),
     app = express(),
-    request = require('request'),
-    pokeModule = require('./modules/storage')
+    request = require('request');
 
-app.use(express.static('static'));
+app.use(express.static('resources'));
 
 app.set('view engine', 'pug');
-app.set('views', 'static/views');
+app.set('views', 'views');
 
-app.get('/'. function(req, res) {
-    res.render('web');
-});
+app.get('/', function(req, res) {
     
+    res.render('web');
     request({
     method: 'GET',
     url: `https://api.nytimes.com/svc/search/v2/articlesearch.json`,
@@ -23,10 +21,8 @@ app.get('/'. function(req, res) {
     json: true
 },
 function(error,response,body){
-    body = JSON.parse(body) {
-        console.log(body);
-    }
-});
+    console.log(body);
+    });
 });
 
 const server = app.listen(3000, function() {
