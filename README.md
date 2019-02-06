@@ -1,6 +1,4 @@
-# final-project-365
-
-Final Project for CSC365
+#CSC365 Final Project
 
 This project leverages the use of the Twitter and NYTimes APIs 
 
