@@ -6,10 +6,10 @@ This project leverages the use of the Twitter and NYTimes APIs
 
 Functionality:
 
-Display top stories for the day as seen on NYTimes
-Search the NYTimes database for articles
-Authentication using Twitter Login
-Tweet articles to the given Twitter account
+* Display top stories for the day as seen on NYTimes
+* Search the NYTimes database for articles
+* Authentication using Twitter Login
+* Tweet articles to the given Twitter account
 
 How to run the project:
 
