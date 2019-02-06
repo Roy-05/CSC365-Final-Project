@@ -1,0 +1,13 @@
+html {
+    height:100%;
+    margin:0;
+}
+.navbar {
+    background-color: lavender;
+}
+body {
+    background-color: lavender;
+    min-height: 100%;
+    margin: 0;
+   
+}

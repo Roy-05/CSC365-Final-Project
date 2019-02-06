@@ -1,3 +1,2 @@
-# CSC365-Final-Project
-
-Final Project for the CSC365
+# final-project-365
+final project for csc 365
